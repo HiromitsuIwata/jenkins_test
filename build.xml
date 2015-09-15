@@ -2,7 +2,7 @@
 
     <target name="phpunit">
         <exec dir="." executable="phpunit" failonerror="true">
-            <arg line="--colors tests" />
+            <arg line="--colors SampleTest" />
         </exec>
     </target>
 
